@@ -1,0 +1,31 @@
+
+{
+  "name": "fix-encoding",
+  "displayName": "Fix Chinese Encoding",
+  "description": "A VSCode extension to fix Chinese encoding issues in terminal and Python",
+  "version": "0.1.0",
+  "publisher": "plumseed",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Other"],
+  "icon": "icon.png",
+  "activationEvents": [
+    "onCommand:fix-encoding.fix"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "fix-encoding.fix",
+        "title": "修复中文编码问题"
+      }
+    ]
+  },
+  "keywords": ["encoding", "chinese", "python", "terminal", "utf8", "code runner"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plumseed/vscode-fix-encoding"
+  },
+  "license": "MIT"
+}
