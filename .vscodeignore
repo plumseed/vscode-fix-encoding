@@ -1,0 +1,14 @@
+node_modules
+.vscode
+.git
+.gitignore
+README.md
+LICENSE
+*.map
+*.ts
+test
+.vscode-test
+.vscodetest.mjs
+.vscodetest.js
+.vscodetest.ts
+*.vsix
